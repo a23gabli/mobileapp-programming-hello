@@ -1,9 +1,6 @@
 
 # Rapport
-
-**Skriv din rapport här!**
-
-_Du kan ta bort all text som finns sedan tidigare_.
+Jag gick in på _strings.xml_ och ändrade texten "Hello" till "Welcome".
 
 ## Följande grundsyn gäller dugga-svar:
 
@@ -16,24 +13,14 @@ _Du kan ta bort all text som finns sedan tidigare_.
 Programkod ska se ut som exemplet nedan. Koden måste vara korrekt indenterad då den blir lättare att läsa vilket gör det lättare att hitta syntaktiska fel.
 
 ```
-function errorCallback(error) {
-    switch(error.code) {
-        case error.PERMISSION_DENIED:
-            // Geolocation API stöds inte, gör något
-            break;
-        case error.POSITION_UNAVAILABLE:
-            // Misslyckat positionsanrop, gör något
-            break;
-        case error.UNKNOWN_ERROR:
-            // Okänt fel, gör något
-            break;
-    }
-}
+<resources>
+    <string name="app_name">Welcome</string>
+</resources>
 ```
 
 Bilder läggs i samma mapp som markdown-filen.
 
-![](android.png)
+![](Screenshot_20240328_143129.png)
 
 Läs gärna:
 
